@@ -1,0 +1,383 @@
+
+@media (min-width: 897px) and (max-width: 1180px) {
+    
+
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemUnits{
+        max-height: fit-content;
+    }
+    
+
+  
+}
+@media (min-width: 768px) and (max-width: 896px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .contain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    
+    
+
+    .section02{
+        height: fit-content;
+        max-height: 200px;
+    }
+
+
+    .section03{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .sticky{
+        position: relative;
+        top: 0;
+        height: fit-content;
+        
+
+    }
+    .beside{
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        z-index: 0;
+        max-height: fit-content;
+       
+        position: relative;
+        align-content: center;
+        width: auto;
+
+       
+    }
+    .top-menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    #tech {
+        scroll-margin-top: 75px;
+      }
+    #mode {
+        scroll-margin-top: 75px;
+      }
+      #politique {
+        scroll-margin-top: 75px;
+      }
+      #social {
+        scroll-margin-top: 75px;
+      }
+      #blog {
+        scroll-margin-top: 75px;
+      }
+      .itemUnits {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr auto 0.5fr auto;; 
+        grid-template-areas:
+        "picUnits"
+        "infoUnits"
+        "linkUnits"
+        "descUnits";
+        gap: 0px;
+    
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: lightgray;
+       margin-bottom: 20px;
+       
+       align-items: center;
+       justify-items: stretch;
+       max-height: fit-content;
+       padding: 4px;
+      }
+
+      .linkUnits {
+        min-height: auto;
+      }
+      .form-control{
+        width: 100%!important;
+        min-width: auto!important;
+      }
+      .sectionFormTotal{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "titleForm"
+            "picAddForm"
+            "infoForm"
+            "descForm"
+            "submitForm";
+        background-color: white;
+        gap: 10px;
+        padding: 15px;
+        z-index: 1;
+      }
+      .aside{
+        width: 100%;
+      }
+    
+}
+
+@media (max-height: 414px) {
+    .section03{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .sticky{
+        position: relative;
+        top: 0;
+        height: fit-content;
+        
+
+    }
+    .beside{
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        z-index: 0;
+        max-height: fit-content;
+       
+        position: relative;
+        align-content: center;
+        width: auto;
+
+       
+    }
+    .top-menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 260px) and (max-width: 767px) {
+    .top-menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .contain{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        
+        }
+    .section01{
+        height: auto;
+        display: grid;
+        /* grid-template-columns: 200px 200px 200px 200px 200px; */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 
+        "aside "
+        "beside"
+        "news1"
+        "news2"
+        "news3"
+        ;
+        background-color: white;
+        gap: 10px;
+        padding: 15px;
+        z-index: -1;
+        
+        
+        
+    }
+    .section02{
+        display: grid;
+    padding: 0;
+    background-color: var(--color-light-hint);
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto 0.25fr 1fr;
+    grid-template-areas:
+    "add-pic add-pic add-pic add-pic"
+    ". grid-content grid-content grid-content"
+    ". grid-title grid-title grid-title"
+    ". empty grid-author emptyness"
+    ". nada nada nada";
+    max-height: fit-content;
+    }
+
+    .add-pic{
+        grid-area: add-pic;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .section03{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .sticky{
+        position: relative;
+        top: 0;
+        height: fit-content;
+        
+
+    }
+    .beside{
+        
+        z-index: 0;
+        max-height: fit-content;
+        
+        position: relative;
+        align-content: center;
+        width: 80%;
+        
+
+       
+    }
+    
+    
+    .aside-pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .menu-mobile{
+    display: block;
+    }
+   
+    #tech {
+    scroll-margin-top: 75px;
+  }
+    #mode {
+    scroll-margin-top: 75px;
+  }
+  #politique {
+    scroll-margin-top: 75px;
+  }
+  #social {
+    scroll-margin-top: 75px;
+  }
+  #blog {
+    scroll-margin-top: 75px;
+  }
+
+
+  .itemUnits {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr auto 0.5fr auto;; 
+    grid-template-areas:
+    "picUnits"
+    "infoUnits"
+    "linkUnits"
+    "descUnits";
+    gap: 5px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+   margin-bottom: 20px;
+   
+   align-items: center;
+   justify-items: stretch;
+   max-height: fit-content;
+   height: fit-content;
+   padding: 4px;
+  }
+
+  .linkUnits {
+    min-height: auto;
+  }
+  .form-control{
+    width: 100%!important;
+    min-width: auto!important;
+  }
+  .sectionFormTotal{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+        "titleForm"
+        "picAddForm"
+        "infoForm"
+        "descForm"
+        "submitForm";
+    background-color: white;
+    gap: 10px;
+    padding: 15px;
+    z-index: 1;
+  }
+  .aside{
+    width: 100%;
+  }
+
+}
+
+
+
+/* nothing here folk !  here a doge */
+/*⠀⠀    ⠀▄   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀▄    
+⠀⠀⠀⠀⠀⠀⠀⠀▌▒█⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀▄▀▒▌   
+⠀⠀⠀⠀⠀⠀⠀⠀▌▒▒█⠀⠀⠀⠀⠀⠀⠀⠀▄▀▒▒▒▐   
+⠀⠀⠀⠀⠀⠀⠀▐▄█▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐   
+⠀⠀⠀⠀⠀▄▄▀▒▒▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐   
+⠀⠀⠀▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒⠀▌   
+⠀⠀▐▒▒▒▄▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄▒▌  
+⠀⠀▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐  
+⠀▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌
+⠀▌░▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌ 
+▌▒▒▒▄██▄▒▒▒▒▒▒▒▒░░░░░░░░▒▒▒▐ 
+▐▒▒▐▄█▄█▌▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▒▒▌
+▐▒▒▐▀▐▀▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▐ 
+⠀▌▒▒▀▄▄▄▄▄▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▒▌ 
+⠀▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒▒▄▒▒▐  
+⠀⠀▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒▄▒▒▒▒▌  
+⠀⠀⠀⠀▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀   
+⠀⠀⠀⠀⠀⠀▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀     
+⠀⠀⠀⠀⠀⠀⠀⠀⠀▀▀▀▀▀▀▀▀▀▀▀▀         */
+/* Johny Pineault */

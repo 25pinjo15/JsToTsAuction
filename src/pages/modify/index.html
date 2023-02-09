@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta SameSite=Strict SameSite="None" SamSite="strict">
+    <link rel="shortcut icon" href="./public/images/icon-top.png">
+    <style>
+        @import url("../../asset/style/styles.css");
+    </style>
+    <link rel="stylesheet" media="only screen and (max-width: 1180px)" href="/src/asset/style/styles.mobile.css" />
+    <script src="https://kit.fontawesome.com/30e27ce8d0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>AUCTION JOHNY !</title>
+    <script type="text/javascript"> // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
+        window.onorientationchange = function() { 
+            var orientation = window.orientation; 
+                switch(orientation) { 
+                    case 0: window.location.reload(); 
+                    case 90: window.location.reload(); 
+                    case -90: window.location.reload(); 
+                    break; } 
+        };
+    </script>
+    <script type="module" src="scriptModify.ts"></script>
+</head>
+<body>
+
+    <div class="hamburger-menu menu-mobile">
+        <header class="header">
+            <!-- Logo -->
+            <a href="/index.html" class="logo">AUCTION JOHNY</a>
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu"><a href="#side0-"></a><span class="hamb-line"></span></label>
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="/index.html">You are not suposed to see this</a></li>
+                   
+    
+    
+                </ul>
+            </nav>
+        </header>
+        <!-- Main content -->
+    
+    </div>
+    
+    <section class="contain">
+        <header class="top-menu">
+            <nav class="menu-top">
+        
+                <ul class="bar left">
+        
+                    <a class="logo animate__animated2" href="/index.html">AUCTION JOHNY</a>
+        
+        
+        
+                </ul>
+        
+                <ul class="bar right animate__animated2">
+                    <a class="logo animate_animated2">Sale! Sale!</a>
+        
+                </ul>
+            </nav>
+        
+        </header>
+        
+    
+           
+            
+            <div class="top-menu sticky animate__animated2 fadeInLeft">
+                <nav class="bar-nav">
+                    <div class="long-separator"></div>
+                    <div class="small-space"></div>
+                    <ul class="bar">
+                        <div class="btn-box"><a class="btn-main btn-top   gray-color" href="/index.html">INVENTORY HOME</a></div>
+                        <div class="btn-box"><a class="btn-main btn-top   gray-color" href="/src/pages/about/index.html">ABOUT US</a></div>
+                        <div class="btn-box"><a class="btn-main btn-top   gray-color" href="/src/pages/social/index.html">SOCIAL</a></div>
+                        
+                        <div class="btn-box"><a id="seed" class="btn-main btn-top   gray-color" href="">SEED DATA</a></div>
+            
+            
+            
+                    </ul>
+                    <div class="long-separator "></div>
+            
+                </nav>
+            </div>
+       
+        </header>
+        
+        
+        
+
+        
+            
+        <section class="section03 animate__animated2 animate__zoomInLeft">
+            
+           
+            
+            <form id="floatingForm" action="" class="aside">
+            
+
+
+                <div class="sectionFormTotal">
+
+                    <div class="titleForm">
+                        
+                        <h1 class="bold">Modify Unit <i class="fa-sharp fa-solid fa-pen"></i></h1>
+                        
+                    </div>
+
+                    <div class="picAddForm">
+                        <div class="form-floating mb-3">
+                            <input type="link" class="form-control"  id="floatingImage" placeholder="This is the description">
+                            <label for="floatinDesc">Image link..</label>
+                          </div>
+                    </div>
+
+                    <div class="desc">
+                        <div class="form-floating mb-3">
+                            <textarea type="desc" class="form-control" id="floatingDesc" style="height: 100px; min-width: 100ch; max-width: 100%;" rows="4" placeholder="This is the description"></textarea>
+                            <label for="floatinDesc">Description...</label>
+                          </div>
+                    </div>
+
+                    <div class="submitForm">
+                        <div>
+                            <button type="button btn-lg" class="btn btn-primary btn-lg" id="submit">Submit</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="formInfo">
+
+                        <div class="nameSubForm">
+                            <div class="form-floating mb-3">
+                                <input type="title" class="form-control" id="floatingTitle" placeholder="The Machine">
+                                <label for="floatingName">Title</label>
+                              </div>
+                        </div>
+
+                       
+
+                        <div class="infoSubForm">
+                            <select class="form-select" aria-label="type" id="floatingType">
+                                <option selected>Type select menu</option>
+                                
+                                <option value="Truck">Truck</option>
+                                <option value="Forklift">Forklift</option>
+                                <option value="Loader">Loader</option>
+                                <option value="Excavator">Excavator</option>
+                                <option value="Bulldozer">Bulldozer</option>
+                                <option value="Skidsteer">Skidsteer</option>
+                                <option value="Backhoe">Backhoe</option>
+                                <option value="Grader">Grader</option>
+                                <option value="Soil Compactor">Soil Compactor</option>
+                                <option value="Crane">Crane</option>
+                                <option value="Trailer">Trailer</option>
+                                <option value="Other">Other</option>
+                              </select>
+
+                              <div class="form-floating mb-3">
+                                <input type="location" class="form-control" id="floatingLocation" placeholder="none">
+                                <label for="floatingLocation">Location</label>
+                              </div>
+
+                              <div class="form-floating mb-3">
+                                <input type="price" class="form-control" id="floatingPrice" placeholder="none">
+                                <label for="floatingPrice">Price</label>
+                              </div>
+                        </div>
+
+                        <div class="optionSubForm">
+                            <div class="form-floating mb-3">
+                                <input type="option" class="form-control" id="floatingOption" placeholder="none">
+                                <label for="floatingOption">Option...</label>
+                              </div>
+                        </div>
+
+                        <div class="saleSubForm">
+                            <div class="input-group mb-3">
+                                <div class="input-group-text">
+                                  <input class="form-check-input mt-0" type="checkbox" value="false" id="floatingSale" aria-label="Sale yes or no">
+                                </div>
+                                <label>For sale?</label>
+                              </div>
+
+                              
+                        </div>
+
+
+
+                        <div class="yearSubForm">
+                            <div class="form-floating mb-3">
+                                <input type="year" class="form-control" id="floatingYear" placeholder="none">
+                                <label for="floatingYear">Year</label>
+                              </div>
+                            <div class="form-floating mb-3">
+                                <input type="link" class="form-control" id="floatingLink" placeholder="none">
+                                <label for="floatingLink">Link</label>
+                              </div>
+                        </div>
+
+                        <div class="emptynessForm"></div>
+                    </div>
+
+                    <div class="emptynessForm"></div>
+
+
+                </div>
+        
+            
+            </form>
+
+
+            <div class="beside animate__animated animate__zoomInRight sticky">
+
+                
+
+                <div class="small-space"></div>
+                <div class="long-separator"></div>
+                <div class="small-space"></div>
+
+                <h2 class="medium-text">Popular</h2>
+                 <div class="long-separator light-gray-background"></div>
+                 <div class="small-margin"></div>
+ 
+                
+                    
+                 
+               
+
+
+               
+
+
+                
+
+
+
+ 
+                 <div class="the-tiniest-news small-margin-right">
+                     <h1 class="small-news-pic big-text center-text">01</h1>
+                     <H3 class="grid-title">Miew at the bird</H3>
+                     <h4 class="grid-content">This bird gonna drive me crazy</h4>
+                     <h5 class="grid-author center-honrizontal">Cat McCatNip</h5>
+                     <div class="grid-date center-honrizontal"><h6>14 Aout - ∞ min<i tabindex="1" class="like fa-solid fa-star"></i> </h6></div>
+                 </div>
+ 
+                 <div class="the-tiniest-news small-margin-right">
+                     <h1 class="small-news-pic big-text center-text">02</h1>
+                     <H3 class="grid-title">Did you know that bird is the word ?</H3>
+                     <h4 class="grid-content">A-Well-a bird bird bird, well-a bird is the word.</h4>
+                     <h5 class="grid-author center-honrizontal">The Trashmen
+                     </h5>
+                     <div class="grid-date center-honrizontal"><h6>29 Fevrier - 7 min<i tabindex="1" class="like fa-solid fa-star"></i> </h6></div>
+                 </div>
+ 
+                 
+ 
+             </div>
+
+        </section>
+
+
+           
+
+            
+
+    </section>
+
+
+</body>
+
+<script>
+
+
+</script>
+
+</html>
